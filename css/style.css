@@ -1,0 +1,438 @@
+/*==============font link css strat ================= */
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Inter:wght@100..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ==============font link css end===============*/
+/*==============common  css strat ================= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration:none;
+}
+ ul,ol{
+    list-style: none;
+ }
+ h1,h2,h3,h4,h5,h6,p,ul,ol{
+ margin: 0;
+ padding: 0;
+ }
+ :root{
+    --poppins:"Poppins", sans-serif;
+ }
+/* ==============common  css end===============*/
+/*==============navber css strat ================= */
+  .main-menu ul{
+    gap: 36px;
+  }
+ .main-menu ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #000 !important;
+    position: relative;
+  }
+  .main-menu ul li a::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: hotpink;
+    border-radius: 2px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: scale(0);
+    transition: all linear.5s;
+  }
+  .main-menu ul li a:hover::after{
+    transform: scale(1);
+  }
+ .menu-button{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+ }
+ .menu-button .searchicon{
+    font-size: 20px;
+    color: #ED017F;
+ }
+ .menu-button a:hover{
+    background: blue;
+ }
+ .menu-button a{
+  padding: 8px 20px;
+  background: #ED017F;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--poppins); 
+  color: #FFFFFF;
+ letter-spacing: 2px;
+ }
+ /* ==============navber css end===============*/
+ /*==============row css strat ================= */
+ .row-head h1{
+    width: 426px;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    padding-top: 142px;
+ }
+ .row-head p{
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #000;
+    padding-top: 23px;
+ }
+ .button{
+   display: flex;
+   gap: 20px;
+ }
+ .button a:hover{
+   background: green;
+ }
+ .button a{
+    width: 157px;
+    height: 46px;
+    background: #ED017F;
+    border-radius: 4px;
+    padding: 13px 24px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #FFFFFF;
+    margin-top: 38px;
+    
+ }
+  .button-searche{
+   padding-top: 185px;
+   display: flex;
+   gap: 32px;
+  }
+ .img-col{
+ 
+ position: absolute;
+ right: 0;
+ top: 0px;
+ z-index: -1;
+ }
+/* ==============row css end===============*/
+/*==============costomar Eepearienc css strat============ */
+.heder h2{
+   font-size: 36px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #343434;
+   text-align: center;
+   padding-top: 104px;
+}
+ .heder p{
+   position: absolute;
+   left: 27.08%;
+   right: 27.08%;
+ font-size: 16px;
+ font-weight: 900;
+ font-family: var(--poppins);
+ color: #999999;
+ text-align: center;
+ margin-top: 20px;
+
+ }
+ .row{
+   margin-top: 76px;
+ }
+ .row h3{
+   width: 103px;
+   height: 22px;
+   font-size: 22px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #363940;
+   margin-top: 18px;
+   margin-bottom: 10px;
+ }
+ .row p{
+   width: 160px;
+   font-size: 14px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+ }
+ .row h4{
+   width: 160px;
+   height: 22px;
+   font-size: 22px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #363940;
+   margin-top: 18px;
+   margin-bottom: 10px;
+ }
+ .row p{
+   width: 160px;
+   font-size: 14px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+ }
+
+/* ==============costomar Eepearienccss end===============*/
+/*==============buisness partner css strat ============ */
+
+.business{
+   margin-top: 79px;
+}
+.business{
+   width: 1440px;
+   height: 449px;
+   background:#FCE0EF ;
+ }
+.business{
+   text-align: center
+    
+}
+.business h2{
+   font-size: 23px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #000000;
+   padding-top: 78px;
+}
+/* ==============buisness partner css end===============*/
+/*==============ipdc glance css strat ================= */
+.row-text{
+   display: flex;
+   gap: 110px;
+}
+.row-text{
+   padding-top: 149px;
+ }
+ .row-text h5{
+   width: 352px;
+   height: 38px;
+   font-size: 32px;
+   font-weight: 400;
+   font-family: var(--poppins);
+   color: #343434;
+
+
+ }
+ .row-text p{
+   width: 460px;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: var(--poppins);
+   color: #676767;
+   margin-top: 10px;
+ }
+ .arrow a{
+   width: 101px;
+   height: 26px;
+   font-size: 19px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #ED017F;
+   padding-top: 45px;
+
+ }
+
+ /* ==============ipdc glance css end===============*/
+ /*==============Our Services css strat ================= */
+ .hed h6{
+font-size: 24px;
+font-weight: 900;
+font-family: var(--poppins);
+color: #343434;
+padding-top: 169px;
+text-align: center;
+
+  }
+  .hed p{
+   position: absolute;
+   left: 27.08%;
+   right: 27.0%;
+   font-size: 16px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+   text-align: center;
+  }
+  .row{
+   padding-top: 76px;
+  }
+  .card-text{
+   display: flex;
+   padding-top: 22px;
+  }
+.card-text h4{
+   font-size: 21px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #363940; 
+}
+.card-text a{
+   display: flex;
+   text-align: center;
+}
+.card-text a{
+   padding-top: 38px;
+ }
+ /* ==============Our Services css end===============*/
+  /* ==============Our best results css part start =======*/
+  .heading h6{
+   font-size: 40px;
+   font-weight: 700;
+   font-family: var(--poppins);
+   color: #343434;
+   padding-top: 106px;
+   text-align: center;
+  }
+  .heading p{
+   position: absolute;
+   left: 27.08%;
+   right: 27.08%;
+   font-size: 16px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+   text-align: center;
+   gap: 20px;
+  }
+  .row-2{
+   display: flex;
+   gap: 67px;
+  }
+  .row-2{
+   padding-top: 84px;
+  }
+  .row-2 h4:hover{
+   color: red;
+  }
+
+  .row-2 h4{
+   font-size: 20px;
+   font-weight: 700;
+   font-family: var(--poppins);
+   color: #000;
+   margin-top: 30px;
+  }
+  .row-2 p{
+   width: 172px;
+   height: 25px;
+   font-size: 16px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+  }  
+ /* ==============Our best results css part end =======*/
+ /* ============== best results css part start =======*/
+ .row-2{
+   padding-top: 55px;
+ }
+ .row-2 h5:hover{
+   color: red;
+ }
+
+ .row-2 h5{
+   font-size: 25px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #343434;
+ }
+ .row-2 p{
+   width: 172px;
+   height: 50px;
+   font-size: 16px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+ }
+ /* ============== best results css part end =======*/
+  /* ==============Newsletter  css part start =======*/
+ .newslatter{
+   width: 1440px;
+   height: 403px;
+   background: #FEF9FC;
+ }
+  .newslatter h3{
+   font-size: 60px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #343434;
+   padding-top: 100px;
+  }
+  .newslatter{
+   text-align: center;
+  }
+  .newslatter p{
+   position: absolute;
+   left: 27.08%;
+   right: 27.08%;
+   font-size: 16px;
+   font-weight: 900;
+   font-family: var(--poppins);
+   color: #999999;
+   margin-top: 20px;
+  }
+  .main-form{
+   margin-top: 100px;
+   text-align: center;
+  }
+  .main-form input{
+   width: 343px;
+   padding: 12px 0 12px 15px;
+   outline: none;
+  }
+  .main-form a{
+ padding: 13px 24px;
+ gap: 10px;
+ width: 132px;
+ height: 46px;
+ background: #ED017F;
+ border-radius: 4px;
+  }
+  .main-form a:hover{
+   background: green;
+  }
+ .main-form a{
+font-family: 'Poppins';
+font-weight: 900;
+font-size: 12px;
+letter-spacing: 2px;
+color: #FFFFFF;
+
+ }
+ /* ==============Newsletter  css part end =======*/
+  /* ==========about company product css part start =======*/
+  .jahidul-islam h4:hover{
+   color: red;
+  }
+
+  .jahidul-islam h4{
+   width: 300px;
+   height: 24px;
+   font-size: 18px;
+   font-weight: 900;
+   color: #010101;
+ } 
+   .jahidul-islam a{
+      padding-top: 16px;
+   }
+
+
+
+
+
+
+
+  /* ==========about company product css part end =======*/
+
+
+
+
